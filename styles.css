@@ -1,0 +1,29 @@
+body {
+}
+header {
+  border-bottom: 1rem solid red;
+  text-align: center;
+}
+
+main {
+  margin: 1rem;
+}
+.cards {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  margin: 1rem;
+}
+
+#copyR {
+  margin-top: 1rem;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
